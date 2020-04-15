@@ -10,10 +10,12 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="assets/device-mockups/device-mockups.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="shortcut icon" type="image/png" href="assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Chaos PiXeLz</title>
+
+
 </head>
 
 <body>
@@ -65,22 +67,19 @@
     <!-- About Section -->
     <section id="about" class="about">
 
-      <div class="container py-3">
+      <div class="container" data-aos="zoom-up" data-aos-duration="1000">
         <div class="section-heading text-center">
           <h2>About Us</h2>
           <hr>
         </div>
         <div class="row">
-
           <div class="col-lg-5 col-md-6">
             <div class="about-img">
               <img src="https://cdn.pixabay.com/photo/2016/11/23/14/41/action-figure-1853285_960_720.jpg" alt="">
             </div>
           </div>
-
           <div class="col-lg-7 col-md-6 text-center">
             <div class=" about-content">
-
               <h3>Odio sed id eos et laboriosam consequatur eos earum soluta.</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua.</p>
@@ -89,7 +88,6 @@
                 veritatis repudiandae ut fugit. Est ut eligendi aspernatur nulla voluptates veniam iusto vel quisquam.
                 Fugit ut maxime incidunt accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab
                 alias.</p>
-
             </div>
           </div>
         </div>
@@ -99,76 +97,68 @@
     <!-- End About Section -->
 
 
-
-
-
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section-bg">
+    <section id="portfolio" class="portfolio">
       <div class="container">
-
         <div class="section-heading text-center">
           <h2>Our Games</h2>
           <hr>
         </div>
         <div class="row portfolio-container">
-          <div class="col-lg-6 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-6 col-md-6 portfolio-item filter-app" data-aos="zoom-in-right" data-aos-duration="1000">
             <div class="portfolio-wrap">
               <img src="assets/images/merlintower.jpg" class="img-fluid" alt="game screen image">
               <div class="portfolio-info">
-                <h4><a href="">Merlins Tower</a></h4>
+                <h4 class="text-white">Merlins Tower</h4>
                 <p>App</p>
                 <div>
                   <a href="https://games.legendsoflearning.com/games/WyJnYW1lcyIsMjc3OF0=?noSignup=true" target="_blank"
-                    data-gall="portfolioGallery" title="App 1" class="link-preview venobox"><i
-                      class="fas fa-gamepad"></i></a>
+                    class="link-preview "><i class="fas fa-gamepad"></i></a>
                   <a href="#" class="link-details" title="More Details"><i class="fas fa-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-6 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+          <div class="col-lg-6 col-md-6 portfolio-item filter-web" data-aos="zoom-in-left" data-aos-duration="1000">
             <div class="portfolio-wrap">
               <img src="assets/images/mt-uf.jpg" class="img-fluid" alt="game screen image">
               <div class="portfolio-info">
-                <h4><a href="#">Divide & Conquer</a></h4>
+                <h4 class="text-white">Unknown Factors</h4>
                 <p>Web</p>
                 <div>
                   <a href="https://games.legendsoflearning.com/games/WyJnYW1lcyIsMjY3NV0=?noSignup=true" target="_blank"
-                    class="link-preview venobox" data-gall="portfolioGallery" title="Web 3"><i
-                      class="fas fa-gamepad"></i></a>
+                    class="link-preview"><i class="fas fa-gamepad"></i></a>
                   <a href="#" class="link-details" title="More Details"><i class="fas fa-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-6 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+          <div class="col-lg-6 col-md-6 portfolio-item filter-app" data-aos="zoom-in-right" data-aos-duration="1000">
             <div class="portfolio-wrap">
               <img src="assets/images/mt-fl.jpg" class="img-fluid" alt="game screen image">
               <div class="portfolio-info">
-                <h4><a href="#">Financial Literacy</a></h4>
+                <h4 class="text-white">Financial Literacy</h4>
                 <p>App</p>
                 <div>
                   <a href="https://games.legendsoflearning.com/games/WyJnYW1lcyIsMjMyOF0=?noSignup=true" target="_blank"
-                    class="link-preview venobox" data-gall="portfolioGallery" title="App 2"><i
-                      class="fas fa-gamepad"></i></a>
+                    class="link-preview"><i class="fas fa-gamepad"></i></a>
                   <a href="#" class="link-details" title="More Details"><i class="fas fa-link"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-6 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-6 col-md-6 portfolio-item filter-card" data-aos="zoom-in-left" data-aos-duration="1000">
             <div class="portfolio-wrap">
               <img src="assets/images/big-c.jpg" class="img-fluid" alt="game character">
               <div class="portfolio-info">
-                <h4><a href="#">Big Chimpin</a></h4>
-                <p>Card</p>
+                <h4 class="text-white">Big Chimpin</h4>
+                <p>Web</p>
                 <div>
                   <a href="https://www.facebook.com/instantgames/play/182296082429484/?context_type=SOLO&source=fb_gg_url"
-                    class="link-preview venobox" data-gall="portfolioGallery" target="_blank" title="Card 2"><i
-                      class="fas fa-gamepad"></i></a>
+                    class="link-preview" target="_blank"><i class="fas fa-gamepad"></i></a>
                   <a href="#" class="link-details" title="More Details"><i class="fas fa-link"></i></a>
                 </div>
               </div>
@@ -182,86 +172,22 @@
 
 
 
-    <!-- Features Section -->
-    <section class="features" id="features">
-      <div class="container py-5">
-        <div class="section-heading text-center">
-          <h2>For Fun, For Education</h2>
-          <p class="text-muted">We tailor the experience to suit your needs!</p>
-          <hr>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 my-auto">
-            <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
-                  <div class="screen">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="assets/images//demo-screen-1.jpg" class="img-fluid" alt="">
-                  </div>
-                  <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-8 my-auto">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="fas fa-mobile-alt text-primary"></i>
-                    <h3>Mobile</h3>
-                    <p class="text-muted">Bespoke gaming experiences for mobile and tablet.</p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="fas fa-desktop text-primary"></i>
-                    <h3>Web</h3>
-                    <p class="text-muted">Games work across all browsers too!</p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="fas fa-gift text-primary"></i>
-                    <h3>Free to play</h3>
-                    <p class="text-muted">Leverage our teams experience to monetize in new ways.</p>
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <i class="fas fa-unlock text-primary"></i>
-                    <h3>Unlock potential</h3>
-                    <p class="text-muted">Unlock potential new customers with fun games on your site.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
 
 
 
 
 
     <!-- Team Section -->
-    <section id="team" class="team section-bg">
-      <div class="container">
+    <section id="team" class="team">
+      <div class="container" data-aos="zoom-in" data-aos-duration="2000">
         <div class="section-heading text-center">
-          <h2>Our Games</h2>
+          <h2>Meet The Team</h2>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
           <hr>
         </div>
-        <div class="row">
+        <div class="row justify-content-around">
 
-          <div class="col-lg-6 col-md-6 wow fadeInUp">
+          <div class="col-lg-5 col-md-6">
             <div class="member">
               <img src="https://cdn.pixabay.com/photo/2016/05/02/17/40/batman-1367730__340.jpg" class="img-fluid"
                 alt="">
@@ -280,7 +206,7 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-5 col-md-6">
             <div class="member">
               <img src="https://cdn.pixabay.com/photo/2016/05/02/17/58/stormtrooper-1367777__340.jpg" class="img-fluid"
                 alt="">
@@ -341,7 +267,7 @@
             <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
           </div>
         </div>
-        <p class="copyright text-center">Chaos Pixelz © 2020</p>
+        <p class="copyright text-center">Chaos PiXeLz © 2020</p>
       </div>
     </footer>
 
@@ -352,6 +278,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 
