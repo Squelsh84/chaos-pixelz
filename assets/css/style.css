@@ -408,7 +408,7 @@ html {
   -o-transition: 0.2s;
   transition: 0.2s;
   padding: 15px 0;
-  background: rgba(29, 28, 41, 0.6);
+  background: rgba(26, 147, 180, 0.56);
 }
 
 #team .member .member-info-content {
@@ -457,7 +457,7 @@ html {
 }
 
 #team .member .social a:hover {
-  color: #1bb1dc;
+  color: #fdcc52;
 }
 
 #team .member .social i {
